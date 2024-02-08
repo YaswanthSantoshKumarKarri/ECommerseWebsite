@@ -1,0 +1,16 @@
+package com.example.product.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.product.entity.ProductEntity;
+
+import jakarta.transaction.Transactional;
+
+@Transactional
+public interface ProductService {
+
+	void createProduct(ProductEntity prodEntity);
+
+	void getAllData(ProductEntity prodEntity);
+
+}

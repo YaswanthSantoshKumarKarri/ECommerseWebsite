@@ -1,0 +1,22 @@
+package com.example.productcart.serviceImp;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.example.productcart.entity.CartEntity;
+import com.example.productcart.repository.CartRepository;
+import com.example.productcart.service.CartService;
+
+@Service
+public class CartServiceImp implements CartServiceImp{
+
+	CartRepository cartrepo;
+
+	@Override
+	public Optional<CartEntity> getDataById(int id) {
+		return cartrepo.findById(id);
+	}
+	
+	
+}

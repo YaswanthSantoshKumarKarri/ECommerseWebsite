@@ -1,0 +1,25 @@
+package com.example.productcart.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class CartEntity {
+
+	private int id;
+	private float totalAmount;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public float getTotalAmount() {
+		return totalAmount;
+	}
+	public void setTotalAmount(float totalAmount) {
+		this.totalAmount = totalAmount;
+	}
+	
+	
+}

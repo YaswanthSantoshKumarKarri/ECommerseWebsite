@@ -1,0 +1,13 @@
+package com.example.productcart.service;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Service;
+
+import com.example.productcart.entity.CartEntity;
+
+@Service
+public interface CartService {
+
+	Optional<CartEntity> getDataById(int id);
+}

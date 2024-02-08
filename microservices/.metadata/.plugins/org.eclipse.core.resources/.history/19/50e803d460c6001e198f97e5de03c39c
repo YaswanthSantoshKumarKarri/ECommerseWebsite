@@ -1,0 +1,39 @@
+package com.example.productcart.entity;
+
+import java.time.LocalDateTime;
+import java.util.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.validation.constraints.FutureOrPresent;
+import jakarta.validation.constraints.NotNull;
+
+@Entity
+public class CartEntity {
+
+	@Id
+	private int id;
+	private int quantity;
+	@NotNull
+	@Future(message = "Date must be in the future")
+	private LocalDateTime delivery_date; 
+	private float product_price;
+	private float discount;
+	private float delivery_charges;
+	private float totalAmount;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public float getTotalAmount() {
+		return totalAmount;
+	}
+	public void setTotalAmount(float totalAmount) {
+		this.totalAmount = totalAmount;
+	}
+	
+	
+}

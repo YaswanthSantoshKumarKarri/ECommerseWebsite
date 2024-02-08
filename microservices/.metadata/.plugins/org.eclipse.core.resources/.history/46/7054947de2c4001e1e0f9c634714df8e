@@ -1,0 +1,11 @@
+package com.example.productcart.service;
+
+import org.springframework.stereotype.Service;
+
+import com.example.productcart.entity.CartEntity;
+
+@Service
+public interface CartServiceImp {
+
+	CartEntity getDataById(int id);
+}

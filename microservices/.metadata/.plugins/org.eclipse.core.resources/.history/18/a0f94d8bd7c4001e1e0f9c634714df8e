@@ -1,0 +1,14 @@
+package com.example.order.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class OrderEntity {
+
+	@Id
+	private int id;
+	private String name;
+	private float orderprice;
+}
+

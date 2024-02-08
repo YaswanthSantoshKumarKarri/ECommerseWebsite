@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\YASKARRI\OneDrive - Capgemini\Desktop\react\Yash-Practice\LearningPractice\microservices\productcart"/>
+			<item value="C:\Users\YASKARRI\OneDrive - Capgemini\Desktop\react\Yash-Practice\LearningPractice\microservices\product"/>
+			<item value="C:\Users\YASKARRI\OneDrive - Capgemini\Desktop\react\Yash-Practice\LearningPractice\microservices\order"/>
+			<item value="C:\Users\YASKARRI\OneDrive - Capgemini\Desktop\react\Yash-Practice\LearningPractice\microservices\tollgate-project\tollrateservice"/>
+			<item value="C:\Users\YASKARRI\OneDrive - Capgemini\Desktop\react\Yash-Practice\LearningPractice\microservices\tollgate-project\cars-billing"/>
+			<item value="C:\Users\YASKARRI\Downloads\OMS"/>
+			<item value="C:\Users\YASKARRI\OneDrive - Capgemini\Desktop\react\Yash-Practice\LearningPractice\microservices\tollgate-project"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

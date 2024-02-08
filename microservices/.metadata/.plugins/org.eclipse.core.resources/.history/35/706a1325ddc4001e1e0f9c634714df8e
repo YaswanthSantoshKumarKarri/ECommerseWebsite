@@ -1,0 +1,9 @@
+package com.example.productcart.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class CartEntity {
+
+	
+}

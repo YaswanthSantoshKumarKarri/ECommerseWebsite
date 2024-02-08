@@ -1,0 +1,21 @@
+package com.example.productcart.serviceImp;
+
+import org.springframework.stereotype.Service;
+
+import com.example.productcart.entity.CartEntity;
+import com.example.productcart.repository.CartRepository;
+import com.example.productcart.service.CartServiceImp;
+
+@Service
+public class CartService implements CartServiceImp{
+
+	CartRepository cartrepo;
+
+	@Override
+	public CartEntity getDataById(int id) {
+		// TODO Auto-generated method stub
+		return cartrepo.getDataById(id);
+	}
+	
+	
+}

@@ -1,0 +1,21 @@
+package com.example.order.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.order.entity.OrderEntity;
+import com.example.order.repo.OrderRepo;
+
+@RestController
+public class OrderController {
+
+	OrderRepo orderrepo;
+	
+	@RequestMapping("/product/{id}")
+	public OrderEntity getByProductId(@PathVariable int id) {
+		return null;
+		
+	}
+	
+}

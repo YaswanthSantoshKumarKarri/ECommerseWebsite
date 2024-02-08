@@ -1,0 +1,20 @@
+package com.example.productcart.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.productcart.entity.CartEntity;
+import com.example.productcart.repository.CartRepository;
+
+@RestController
+public class CartController {
+	
+	CartRepository repo;
+	
+	@RequestMapping("/cart/{id}")
+	public CartEntity getById(@PathVariable int id) {
+		CartEntity data = repo.getById(id);
+        return data;
+    }
+}

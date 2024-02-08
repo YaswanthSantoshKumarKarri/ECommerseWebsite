@@ -1,0 +1,8 @@
+package com.example.productcart.serviceImp;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface CartServiceImp {
+	
+}

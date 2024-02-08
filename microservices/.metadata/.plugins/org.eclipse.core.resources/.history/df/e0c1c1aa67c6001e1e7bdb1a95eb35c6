@@ -1,0 +1,58 @@
+package com.example.productcart.serviceImp;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.product.entity.ProductEntity;
+import com.example.productcart.entity.CartEntity;
+import com.example.productcart.repository.CartRepository;
+import com.example.productcart.service.CartService;
+
+@Service
+public class CartServiceImp implements CartService{
+
+	@Autowired
+	private CartRepository cartrepo;
+
+	@Override
+	public CartEntity createProduct(CartEntity prodEntity) {
+		prorep.save(prodEntity);
+		return prodEntity;
+	}
+
+	@Override
+	public List<CartEntity> getAllData() {
+		return prorep.findAll();
+	}
+
+	@Override
+	public CartEntity UpdateById(int id, CartEntity cartEntity) {
+		if(cartEntity.getId()==id) {
+			return prorep.save(cartEntity);
+		}
+		return null;
+	}
+
+	@Override
+	public String DeleteById(int id) {
+		Optional<CartEntity> tf=prorep.findById(id);
+		if(!tf.isEmpty()) {
+			prorep.deleteById(id);
+			return "success";
+		}return null;
+		
+	}
+
+	@Override
+	public Optional<ProductEntity> getById(int id) {
+		Optional<ProductEntity> tf=prorep.findById(id);
+		if(!tf.isEmpty()) {
+			return tf;
+		}return null;
+	}
+	
+	
+}

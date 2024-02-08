@@ -1,0 +1,33 @@
+package com.example.order.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="orders")
+public class OrderEntity {
+
+	@Id
+	private int OrderId;
+	private String CustomerName;
+	private float orderPrice;
+	public int getOrderId() {
+		return OrderId;
+	}
+	public void setOrderId(int Orderid) {
+		this.OrderId = Orderid;
+	}
+	public String getCustomerName() {
+		return CustomerName;
+	}
+	public void setCustomerName(String CustomerName) {
+		this.CustomerName = CustomerName;
+	}
+	public float getOrderPrice() {
+		return orderPrice;
+	}
+	public void setOrderPrice(float orderPrice) {
+		this.orderPrice = orderPrice;
+	}
+}

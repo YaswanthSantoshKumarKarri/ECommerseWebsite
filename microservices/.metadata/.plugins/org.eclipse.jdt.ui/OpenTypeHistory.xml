@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=order/C:\/Users\/YASKARRI\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.2.2\/spring-data-jpa-3.2.2.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.2.2=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1706504627749"/>
+    <typeInfo handle="=product/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.product.service{ProductService.java[ProductService" modifiers="513" timestamp="1707378130071"/>
+    <typeInfo handle="=product/C:\/Users\/YASKARRI\/.m2\/repository\/org\/yaml\/snakeyaml\/2.2\/snakeyaml-2.2.jar=/maven.pomderived=/true=/=/maven.groupId=/org.yaml=/=/maven.artifactId=/snakeyaml=/=/maven.version=/2.2=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.yaml.snakeyaml.parser(Production.class[Production" modifiers="1536" timestamp="1706504637116"/>
+</typeInfoHistroy>
